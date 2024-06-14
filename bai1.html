@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nhập hai số a và b</h1>
+    a: <input type="number" id="numberA">
+    <br>
+    b: <input type="number" id="numberB">
+    <br>
+    <br>
+    <button onclick="findPerfectSquares()">Tìm số chính phương</button>
+    <div id="result"></div>
+
+    <script>
+        function findPerfectSquares() {
+            var a = parseInt(document.getElementById("numberA").value);
+            var b = parseInt(document.getElementById("numberB").value);
+
+            if (isNaN(a) || isNaN(b)) {
+                alert("Số không hợp lệ");
+                return;
+            }
+
+            var result = document.getElementById("result");
+            result.innerHTML = "<h2>Các số chính phương trong khoảng từ " + a + " đến " + b + ":</h2>";
+
+            for (var i = a; i <= b; i++) {
+                if (Number.isInteger(Math.sqrt(i))) {
+                    result.innerHTML += i + " ";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

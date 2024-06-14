@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: radial-gradient(#14183b, #1c143b);
+}
+.navbar{
+    color: #eee;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+.navbar li{
+    padding: 30px;
+    display: inline-block;
+}
+.search{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    height: 30px;
+    width: 242px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    display: flex; 
+    height: 30px;
+    width: 30px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 900px;
+}.sign{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid rgb(192, 63, 192);
+    height: 30px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 1500px;
+    background-color: rgb(182, 41, 182);
+}
+.left{
+    color: #eee;
+    padding: 200px;
+    font-size: 30px;
+}
+.right{
+    display: flex;
+    position: absolute;
+    height: 800px;
+    width: 600px;
+    background-color: #343435;
+    border-radius: 3%;
+    margin-left: 1000px;
+    margin-top: -750px;
+}
+.pic1{
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+}
+.cap1{
+    color: #eee;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 580px;
+}
+.cap2{
+    color: #eee;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 700px;
+}
+
+.cap3{
+    color: #eee;
+    display: flex;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 700px;
+}
+
+.pic2{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 390px;
+}
+.pic3{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 410px;
+}
+.pic4{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 430px;
+}
+.pic5{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 450px;
+}
+.pic6{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 580px;
+    margin-left: 470px;
+}
+.dis{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(182, 41, 182);
+    border: 1px solid rgb(192, 63, 192);
+    width: 300px;
+    height: 50px;
+    border-radius: 3%;
+}
+.caps{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.logo2{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.logo3{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 250px;
+    margin-left: 1000px;
+    
+}
+.logo4{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 1500px;
+}

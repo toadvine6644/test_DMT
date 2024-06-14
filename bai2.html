@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="./assets/bai2.css">
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <div id="colorCode">#000000</div>
+    <button onclick="generateRandomColor()">Pick Color</button>
+    <button onclick="copyColor()">Copy Color</button>
+    <br>
+    <input type="color" id="colorInput" onchange="changeBackgroundColor()">
+    
+    <script>
+        function generateRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            document.body.style.backgroundColor = color;
+            document.getElementById("colorCode").innerText = color;
+        }
+
+        function copyColor() {
+            var colorCode = document.getElementById("colorCode").innerText;
+            navigator.clipboard.writeText(colorCode);
+            alert("Mã màu đã được sao chép: " + colorCode);
+        }
+
+        function changeBackgroundColor() {
+            var selectedColor = document.getElementById("colorInput").value;
+            document.body.style.backgroundColor = selectedColor;
+            document.getElementById("colorCode").innerText = selectedColor;
+        }
+    </script>
+</body>
+</html>
